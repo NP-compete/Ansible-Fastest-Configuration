@@ -1,0 +1,6 @@
+- hosts: all
+  tasks:
+  - name: "name of the task"
+    command: "command we want to execute"
+    async: 40
+    ignore_errors: true
